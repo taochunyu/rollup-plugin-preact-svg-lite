@@ -1,6 +1,7 @@
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
-import svg from '../rollup-plugin-preact-svg-lite';
+import commonjs from "@rollup/plugin-commonjs";
+import svg from "..";
 
 export default {
   input: "example/main.tsx",
@@ -11,6 +12,7 @@ export default {
     sourcemap: true,
   },
   plugins: [
+    commonjs(),
     resolve(),
     svg(),
     typescript({

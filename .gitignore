@@ -13,3 +13,4 @@ npm-debug.log*
 
 # Dev/Build Artifacts
 **/dist/
+rollup-plugin-preact-svg-lite.js

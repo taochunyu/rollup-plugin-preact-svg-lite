@@ -10,7 +10,7 @@ const cleanSVG = (raw) => {
     .replace(/\s*<!--[\s\S]*?-->\s*/ig, "");         // Remove comments
 }
 
-export const preactSVG = () => {
+const preactSVG = () => {
   const filter = createFilter("**/*.svg");
 
   return {
