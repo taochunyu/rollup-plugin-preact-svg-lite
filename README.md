@@ -6,7 +6,7 @@ Import SVG files in preact.
 
 This is a <a href="http://rollupjs.org/" target="_blank">Rollup</a> plugin for importing SVG files in <a href="http://preactjs.com/" target="_blank">Preact</a>.
 
-It can work with rollup@2.x.x and @rollup/plugin-typescript@6.x.x.
+It can work with rollup 2.x.x and @rollup/plugin-typescript 6.x.x.
 
 ## Installation
 
