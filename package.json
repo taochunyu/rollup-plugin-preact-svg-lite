@@ -1,0 +1,32 @@
+{
+  "name": "rollup-plugin-preact-svg-lite",
+  "version": "1.0.0",
+  "description": "rollup plugin for importing svg file in preact",
+  "main": "rollup-plugin-preact-svg-lite.js",
+  "scripts": {
+    "example": "rollup -c example/rollup.config.js"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "preact",
+    "svg",
+    "preact-svg"
+  ],
+  "author": "taochunyu <tao_chunyu@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/plugin-transform-react-jsx": "^7.12.17",
+    "@rollup/pluginutils": "^4.1.0"
+  },
+  "peerDependencies": {
+    "rollup": "^2.39.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-typescript": "^8.2.0",
+    "preact": "^10.5.12",
+    "rollup": "*"
+  }
+}

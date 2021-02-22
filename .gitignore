@@ -1,0 +1,15 @@
+# OS Files
+.DS_Store
+
+# Dependencies
+**/node_modules/
+
+# Log Files
+*.log
+npm-debug.log*
+
+# Unconfigured Editors
+.idea
+
+# Dev/Build Artifacts
+**/dist/

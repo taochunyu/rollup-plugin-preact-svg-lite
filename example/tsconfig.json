@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "es5",
+    "downlevelIteration": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "Node",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "lib": [
+      "dom",
+      "ESNext"
+    ],
+    "types": [
+      "."
+    ]
+  },
+}
