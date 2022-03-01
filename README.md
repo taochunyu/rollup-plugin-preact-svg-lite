@@ -11,7 +11,7 @@ It can work with rollup 2.x.x and @rollup/plugin-typescript 6.x.x.
 ## Installation
 
 ```bash
-npm install rollup-plugin-preact-svg -D
+npm install rollup-plugin-preact-svg-lite -D
 ```
 
 ## Usage
